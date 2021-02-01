@@ -1,5 +1,5 @@
 # nba-predictions-web
- A dynamic predictions list that allows users to perform CRUD operations on predictions stored in a SQLite database. React + Bootstrap frontend + Django backend.
+ A dynamic predictions list that allows users to perform CRUD operations on predictions stored in a SQLite database. React + Bootstrap frontend and Django backend.
 
 
 ### Starting the frontend:

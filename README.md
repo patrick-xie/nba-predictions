@@ -4,8 +4,8 @@
 
 ### Running the frontend:
 
-cd into frontend, run 'yarn start'
+cd into frontend, run 'yarn start' in terminal
 
 ### Running the backend:
 
-cd into backend, run 'python3 manage.py runserver'
+cd into backend, run 'python3 manage.py runserver' in terminal

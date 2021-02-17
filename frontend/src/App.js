@@ -3,6 +3,7 @@
 import React, { Component } from "react";
 import Modal from "./components/Modal";
 import axios from "axios";
+import nbalogo from './logo.jpg';
 
 class App extends Component {
   constructor(props) {
@@ -115,11 +116,12 @@ class App extends Component {
   };
   render() {
     return (
-      <main className="content">
-        <h1 className="text-white text-uppercase text-center my-4">NBA Predictions</h1>
+      <main className="content" style={{backgroundImage: 'url(' + require('./blurr.jpg') + ')'}}>
+        <img alt = "jerry west" src={nbalogo} style={{width: '5%', position: 'absolute', left: '80%'}}></img>
+        <h1 className="text-white text-center">NBA Predictions Board</h1>
         <div className="row ">
           <div className="col-md-6 col-sm-10 mx-auto p-0">
-            <div className="card p-3">
+            <div className="card p-3" style={{backgroundImage: 'url(' + require('./table.jpg') + ')'}}>
               <div className="">
                 <button onClick={this.createItem} className="btn btn-primary">
                   Add prediction

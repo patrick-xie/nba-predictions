@@ -44,9 +44,8 @@ class App extends Component {
         </span>
         <span
           onClick={() => this.displayCompleted(false)}
-          className={this.state.viewCompleted ? "" : "active"}
-        >
-          Pending
+          className={this.state.viewCompleted ? "" : "active"}>
+          Current
         </span>
       </div>
     );
@@ -71,16 +70,10 @@ class App extends Component {
           <p>{item.description}</p>
         </span>
         <span>
-          <button
-            onClick={() => this.editItem(item)}
-            className="btn btn-secondary mr-2"
-          >
-            {" "}
-            Edit{" "}
+          <button onClick={() => this.editItem(item)} className="btn btn-secondary mr-2" style={{display: 'inline', padding:'2px'}}>
+            {" "}Edit{" "}
           </button>
-          <button
-            onClick={() => this.handleDelete(item)}
-            className="btn btn-danger">
+          <button onClick={() => this.handleDelete(item)} className="btn btn-danger" style={{display: 'inline',  padding:'2px'}}>
             Delete{" "}
           </button>
         </span>
@@ -117,14 +110,13 @@ class App extends Component {
   render() {
     return (
       <main className="content" style={{backgroundImage: 'url(' + require('./blurr.jpg') + ')'}}>
-        <img alt = "jerry west" src={nbalogo} style={{width: '5%', position: 'absolute', left: '80%'}}></img>
-        <h1 className="text-white text-center">NBA Predictions Board</h1>
+        <h1 className="text-white text-center">Sticky Notes</h1>
         <div className="row ">
           <div className="col-md-6 col-sm-10 mx-auto p-0">
             <div className="card p-3" style={{backgroundImage: 'url(' + require('./table.jpg') + ')'}}>
               <div className="">
                 <button onClick={this.createItem} className="btn btn-primary">
-                  Add prediction
+                  Add note
                 </button>
               </div>
               {this.renderTabList()}

@@ -30,7 +30,7 @@ export default class CustomModal extends Component {
     const { toggle, onSave } = this.props;
     return (
       <Modal isOpen={true} toggle={toggle}>
-        <ModalHeader toggle={toggle}> Prediction </ModalHeader>
+        <ModalHeader toggle={toggle}> Note </ModalHeader>
         <ModalBody>
           <Form>
             <FormGroup>
@@ -40,7 +40,7 @@ export default class CustomModal extends Component {
                 name="title"
                 value={this.state.activeItem.title}
                 onChange={this.handleChange}
-                placeholder="Enter prediction title"
+                placeholder="Enter title"
               />
             </FormGroup>
             <FormGroup>
@@ -50,7 +50,7 @@ export default class CustomModal extends Component {
                 name="description"
                 value={this.state.activeItem.description}
                 onChange={this.handleChange}
-                placeholder="Enter prediction description"
+                placeholder="Enter description"
               />
             </FormGroup>
             <FormGroup check>

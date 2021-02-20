@@ -1,9 +1,8 @@
-# nba-predictions-web
- A dynamic predictions board that allows users to perform CRUD operations on user predictions stored in a PostgreSQL database. 
- React + Bootstrap frontend and Django backend.
+# Sticky-Notes
+A single page application that allows users to perform CRUD operations on written notes stored in a PostgreSQL database. 
+React + Bootstrap frontend and Django backend.
  
  ### Preview:
-
-![kenn_nba_predict](https://user-images.githubusercontent.com/47607915/108163788-93754c80-70bd-11eb-867f-4320082a31da.PNG)
-![modal](https://user-images.githubusercontent.com/47607915/108163794-95d7a680-70bd-11eb-9fcb-2221475c6bbc.PNG)
-![kenn_improved](https://user-images.githubusercontent.com/47607915/108163782-92441f80-70bd-11eb-85a4-661a618afbe6.PNG)
+![notes_cover](https://user-images.githubusercontent.com/47607915/108610560-7209ae80-73a4-11eb-8c16-cb7e658e7713.PNG)
+![notes_modal](https://user-images.githubusercontent.com/47607915/108610561-72a24500-73a4-11eb-8282-0cc08b14e211.PNG)
+![notes_resolve](https://user-images.githubusercontent.com/47607915/108610563-73d37200-73a4-11eb-9ecc-cb6beb6ab758.PNG)
